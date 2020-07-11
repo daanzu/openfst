@@ -22,9 +22,9 @@
   <PropertyGroup>
     <!-- v140 = 14.0, comes with VS14 aka VS 2015 -->
     <PlatformToolset Condition="false" >v140</PlatformToolset>
-    <!-- v141 = 14.1, comes with VS15 aka VS 2017. This is the default. -->
+    <!-- v141 = 14.1, comes with VS15 aka VS 2017. -->
     <PlatformToolset Condition="false" >v141</PlatformToolset>
-    <!-- v142 = 14.2, comes with VS15 aka VS 2019. -->
+    <!-- v142 = 14.2, comes with VS15 aka VS 2019. This is the default. -->
     <PlatformToolset Condition="false" >v142</PlatformToolset>
   </PropertyGroup>
 

@@ -27,7 +27,7 @@
 
   <PropertyGroup>
     <Keyword>Win32Proj</Keyword>
-    <PlatformToolset Condition=" '$(PlatformToolset)' == '' ">v141</PlatformToolset>
+    <PlatformToolset Condition=" '$(PlatformToolset)' == '' ">v142</PlatformToolset>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
 
