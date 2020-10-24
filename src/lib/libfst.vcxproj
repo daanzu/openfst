@@ -128,6 +128,11 @@
     <ClInclude Include="..\include\fst\visit.h" />
     <ClInclude Include="..\include\fst\weight.h" />
   </ItemGroup>
+  <ItemGroup Label="Extension: lookahead">
+    <ClCompile Include="../extensions/lookahead/arc_lookahead-fst.cc">     <Feature>lookahead</Feature> </ClCompile>
+    <ClCompile Include="../extensions/lookahead/ilabel_lookahead-fst.cc">  <Feature>lookahead</Feature> </ClCompile>
+    <ClCompile Include="../extensions/lookahead/olabel_lookahead-fst.cc">  <Feature>lookahead</Feature> </ClCompile>
+  </ItemGroup>
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <Import Project="../openfst.targets" />
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
