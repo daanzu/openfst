@@ -34,6 +34,7 @@ SET_PROPERTY(GLOBAL PROPERTY USE_FOLDERS ${BUILD_USE_SOLUTION_FOLDERS})
 
 option(HAVE_BIN          "Build the fst binaries" ON)
 option(HAVE_SCRIPT       "Build the fstscript" ON)
+option(HAVE_TESTS "Build tests" ON)
 option(HAVE_COMPACT      "Build compact" ON)
 option(HAVE_COMPRESS "Build compress" OFF)
 option(HAVE_CONST   "Build const" ON)
