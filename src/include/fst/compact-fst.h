@@ -1159,7 +1159,6 @@ bool CompactFst<A, ArcCompactor, Unsigned, CompactStore, CacheStore>::WriteFst(
   using Arc = A;
   using Weight = typename A::Weight;
   using Element = typename ArcCompactor::Element;
-  CheckBinaryStdout(strm);
   const auto file_version =
       opts.align ? Impl::kAlignedFileVersion : Impl::kFileVersion;
   size_t num_arcs = -1;
