@@ -1,5 +1,5 @@
 file(GLOB HEADER_FILES ../include/fst/script/*.h)
-message(STATUS "${HEADER_FILES}")
+# message(STATUS "${HEADER_FILES}")
 
 add_library(fstscript
   arciterator-class.cc
