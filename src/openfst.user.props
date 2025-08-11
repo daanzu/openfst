@@ -27,7 +27,7 @@
     <!-- v143 = 14.3, comes with VS17 aka VS 2022. -->
     <PlatformToolset Condition="false" >v143</PlatformToolset>
     <!-- ClangCL. Available starting with VS 2019. -->
-    <PlatformToolset>ClangCL</PlatformToolset>
+    <PlatformToolset Condition="false" >ClangCL</PlatformToolset>
   </PropertyGroup>
 
   <!-- SDK version (default: toolset's default, originally 8.1, currently 10.0).
